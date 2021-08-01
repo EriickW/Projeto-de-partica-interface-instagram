@@ -1,0 +1,132 @@
+
+
+body{
+	width: 100%;
+	min-height: 100px;
+	background-color: whitesmoke;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.InstagramDiv {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 60%;
+	height: 100vh;
+
+}
+.fotodoperfil{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+
+}
+.fotodoperfil img {
+	height: 15rem;
+}
+.instaLogo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+.instalogin{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column ;
+	width: 50%;
+	min-height: 34ren;
+}
+.consigaoapp{
+		display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column ;
+}
+.group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+	width: 130%;
+	padding: 1.3ren 0;
+	border: 1px solid lightgray;
+	margin-top: 10px;
+
+
+}
+.naoconta{
+	margin-bottom: 1px;
+}
+.logout{
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.instaLogo{
+	margin-top: 10px;
+}
+.fotodoperfil {
+	
+	
+	align-items: center;
+	border-radius: 50%;
+	overflow:hidden;
+	width:100px;
+	height:100px;
+
+}
+.login{
+	background-color: #1E90FF;
+	color: white;
+	padding: 8px;
+	border-radius: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+.logout{
+	color: #1E90FF;
+	margin-top: 1ren;
+	text-decoration: none;
+}
+    .naoconta{
+    	color: gray;
+    }
+.linkBlue{
+	color: #1E90FF;
+}
+.baixeoapp{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1.3ren 0;
+	margin-bottom: 1px;
+}
+.app_download{
+	height: 3ren;
+	width: 10ren;
+	background-size: cover;
+	
+
+}
+
+.apple{
+	width: 200px;
+	margin-top: 1px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	margin-left: 0px;
+}
+.google{
+	align-items: right;
+	width: 200px;
+	
+}
